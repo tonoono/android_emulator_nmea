@@ -22,7 +22,7 @@ Python 2.7+
     optional arguments:
       -h, --help       show this help message and exit
       --host HOST      address of telnet host, DEFAULT: localhost
-      --port PORT      port of telnet host
+      --port PORT      port of telnet host, DEFAULT: 5554
       --file FILENAME  FILE that contains NMEA data
 
 ## Links

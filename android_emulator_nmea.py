@@ -9,7 +9,7 @@ import sys
 def main():
   parser = argparse.ArgumentParser(description='Send an NMEA log file to the android emulator.', usage='%(prog)s [options] FILE')
   parser.add_argument('--host', dest='host', default="localhost", help="address of telnet host, DEFAULT: localhost")
-  parser.add_argument('--port', dest='port', default="5554", help="port of telnet host")
+  parser.add_argument('--port', dest='port', default="5554", help="port of telnet host, DEFAULT: 5554")
   parser.add_argument('--file', dest='filename', help="FILE that contains NMEA data")
   args = parser.parse_args()
   
